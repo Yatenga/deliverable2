@@ -8,22 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><h1>Form with Big Time Updates</h1>></title>
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
 <body>
+<form>
+  <h2>Registration form</h2>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
 
-<form class="bg-indigo-500">
-    <h2>Checkout form</h2>
+<form>
+  <h2>Checkout form</h2>
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname"><br>
     <label for="lname">Last name;</label><br>
     <input type="text" id="lname" name="lname"><br>
     <label for="cityofdestination">City of destination</label><br>
-    <input type="text" id="cityofdestination" name="cityofdestination"><br>
-    <label for="countryoforigin">Country of origin></label><br>
-    <input type="radio" id="countryoforigin" name="country of origin"><br>
-    <label for="USA">USA<br>
+    <input type="text" id="city" name="cityofdestination"><br>
+    <label form="countryoforigin">Country of origin></label><br>
+    <input type="radio" id="country" name="country of origin"><br>
+
+    <label for="country">USA<br>
     <input type="text" id="USA" name="USA">
 </form>
 
